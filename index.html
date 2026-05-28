@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diviformica - Proposta de Aplicativo Mobile | Vektor Solutions</title>
+    <meta
+      name="description"
+      content="Proposta comercial para desenvolvimento de aplicativo mobile integrado ao ecossistema de or&ccedil;amentos Diviformica."
+    />
+    <meta name="theme-color" content="#272e67" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Ir para o conte&uacute;do</a>
+
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#topo" aria-label="Diviformica - in&iacute;cio">
+          <img
+            class="brand-logo brand-logo-light"
+            src="/diviformica-branca.png"
+            width="220"
+            height="90"
+            alt="Diviformica"
+          />
+          <img
+            class="brand-logo brand-logo-dark"
+            src="/diviformica-azul.png"
+            width="220"
+            height="90"
+            alt="Diviformica"
+          />
+        </a>
+
+        <nav class="nav" aria-label="Se&ccedil;&otilde;es da proposta">
+          <a href="#solucao">Solu&ccedil;&atilde;o</a>
+          <a href="#mock-app">Mock</a>
+          <a href="#funcionalidades">Funcionalidades</a>
+          <a href="#cronograma">Cronograma</a>
+          <a href="#investimento">Investimento</a>
+          <a href="#escopo">Escopo</a>
+        </nav>
+
+        <div class="header-presenter">
+          <span>Proposta por</span>
+          <a
+            class="vektor-link"
+            href="https://vektorsol.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Vektor Solutions - abrir site"
+          >
+            <img
+              class="vektor-logo"
+              src="/vektor-solutions.png"
+              width="180"
+              height="44"
+              alt="Vektor Solutions"
+            />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main id="conteudo">
+      <section id="topo" class="hero" tabindex="-1">
+        <div class="hero-bg" aria-hidden="true"></div>
+        <div class="hero-overlay" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <p class="eyebrow">Proposta comercial - desenvolvimento mobile</p>
+            <h1>Levando sua Intelig&ecirc;ncia de Or&ccedil;amentos para o Bolso do seu Cliente.</h1>
+            <p class="hero-lead">
+              Desenvolvimento de Aplicativo Mobile Integrado (Android &amp; iOS) com
+              ecossistema unificado de dados.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#mock-app">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                  <rect x="7" y="2.5" width="10" height="19" rx="2" />
+                  <path d="M10 18.5h4" />
+                </svg>
+                Explorar mock do app
+              </a>
+              <a class="btn btn-ghost" href="#investimento">Ver investimento</a>
+            </div>
+          </div>
+
+          <div
+            id="mock-app"
+            class="hero-visual"
+            tabindex="-1"
+            aria-label="Mock naveg&aacute;vel do aplicativo de or&ccedil;amentos"
+          >
+            <div class="phone-frame">
+              <div class="phone-notch" aria-hidden="true"></div>
+              <div class="phone-screen" data-app-mock>
+                <div class="app-head">
+                  <span class="app-label">Diviformica</span>
+                  <span class="app-status">Online</span>
+                </div>
+
+                <div class="app-view-stack">
+                  <section
+                    id="app-view-inicio"
+                    class="app-view is-active"
+                    data-app-view="inicio"
+                    role="tabpanel"
+                    aria-labelledby="app-tab-inicio"
+                  >
+                    <h2>Or&ccedil;amento na m&atilde;o</h2>
+                    <p class="app-copy">
+                      Simule servi&ccedil;os, confira uma estimativa e envie para atendimento.
+                    </p>
+                    <div class="app-total app-total-hero">
+                      <span>&Uacute;ltima estimativa</span>
+                      <strong>R$ 8.740,00</strong>
+                    </div>
+                    <div class="app-actions">
+                      <button type="button" class="app-btn app-btn-solid" data-app-nav="simular">
+                        Nova simula&ccedil;&atilde;o
+                      </button>
+                      <button type="button" class="app-btn app-btn-ghost" data-app-nav="servicos">
+                        Ver servi&ccedil;os
+                      </button>
+                    </div>
+                  </section>
+
+                  <section
+                    id="app-view-servicos"
+                    class="app-view"
+                    data-app-view="servicos"
+                    role="tabpanel"
+                    aria-labelledby="app-tab-servicos"
+                    hidden
+                  >
+                    <h2>Servi&ccedil;os</h2>
+                    <div class="app-service-list">
+                      <button type="button" class="app-service is-selected" data-app-nav="simular">
+                        <span>Divis&oacute;ria Naval</span>
+                        <strong>Por m&sup2; + portas</strong>
+                      </button>
+                      <button type="button" class="app-service" data-app-nav="simular">
+                        <span>Forro PVC</span>
+                        <strong>Ambiente &uacute;nico ou v&aacute;rios</strong>
+                      </button>
+                      <button type="button" class="app-service" data-app-nav="simular">
+                        <span>Parede Drywall</span>
+                        <strong>Tipos e acabamento</strong>
+                      </button>
+                    </div>
+                  </section>
+
+                  <section
+                    id="app-view-simular"
+                    class="app-view"
+                    data-app-view="simular"
+                    role="tabpanel"
+                    aria-labelledby="app-tab-simular"
+                    hidden
+                  >
+                    <h2>Simula&ccedil;&atilde;o r&aacute;pida</h2>
+                    <div class="app-field">
+                      <span>Servi&ccedil;o</span>
+                      <strong>Divis&oacute;ria Naval</strong>
+                    </div>
+                    <div class="app-grid">
+                      <div>
+                        <span>&Aacute;rea</span>
+                        <strong>42 m&sup2;</strong>
+                      </div>
+                      <div>
+                        <span>Portas</span>
+                        <strong>2 un.</strong>
+                      </div>
+                    </div>
+                    <div class="app-progress">
+                      <span style="width: 72%"></span>
+                    </div>
+                    <button type="button" class="app-btn app-btn-solid app-btn-block" data-app-nav="resumo">
+                      Calcular estimativa
+                    </button>
+                  </section>
+
+                  <section
+                    id="app-view-resumo"
+                    class="app-view"
+                    data-app-view="resumo"
+                    role="tabpanel"
+                    aria-labelledby="app-tab-resumo"
+                    hidden
+                  >
+                    <h2>Resumo</h2>
+                    <div class="app-total">
+                      <span>Estimativa</span>
+                      <strong>R$ 8.740,00</strong>
+                    </div>
+                    <ul class="app-summary-list">
+                      <li><span>Material</span><strong>Naval branco</strong></li>
+                      <li><span>Medida</span><strong>42 m&sup2;</strong></li>
+                      <li><span>Portas</span><strong>2 unidades</strong></li>
+                    </ul>
+                    <button type="button" class="app-btn app-btn-ghost app-btn-block" data-app-nav="inicio">
+                      Voltar ao in&iacute;cio
+                    </button>
+                  </section>
+                </div>
+
+                <nav class="app-tabbar" role="tablist" aria-label="Navega&ccedil;&atilde;o do mock do app">
+                  <button
+                    type="button"
+                    role="tab"
+                    class="app-tab is-active"
+                    id="app-tab-inicio"
+                    data-app-view="inicio"
+                    aria-selected="true"
+                    aria-controls="app-view-inicio"
+                  >
+                    In&iacute;cio
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    class="app-tab"
+                    id="app-tab-servicos"
+                    data-app-view="servicos"
+                    aria-selected="false"
+                    aria-controls="app-view-servicos"
+                  >
+                    Servi&ccedil;os
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    class="app-tab"
+                    id="app-tab-simular"
+                    data-app-view="simular"
+                    aria-selected="false"
+                    aria-controls="app-view-simular"
+                  >
+                    Simular
+                  </button>
+                  <button
+                    type="button"
+                    role="tab"
+                    class="app-tab"
+                    id="app-tab-resumo"
+                    data-app-view="resumo"
+                    aria-selected="false"
+                    aria-controls="app-view-resumo"
+                  >
+                    Resumo
+                  </button>
+                </nav>
+
+                <div class="app-sync">
+                  <span></span>
+                  Dados sincronizados com a API central
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="solucao" class="section section-alt" tabindex="-1">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">A solu&ccedil;&atilde;o t&eacute;cnica</p>
+            <h2>Um &Uacute;nico C&eacute;rebro. M&uacute;ltiplas Plataformas.</h2>
+            <p class="section-sub">
+              Em vez de construir um aplicativo isolado do site atual, vamos desmembrar
+              e evoluir a API existente para centralizar a intelig&ecirc;ncia de c&aacute;lculo
+              e as tabelas de pre&ccedil;os dos materiais na nuvem.
+            </p>
+          </div>
+
+          <div class="ecosystem-grid">
+            <article class="ecosystem-card">
+              <span class="card-index">01</span>
+              <h3>Painel administrativo</h3>
+              <p>
+                O painel segue como fonte operacional para atualizar insumos,
+                tabelas e par&acirc;metros comerciais.
+              </p>
+            </article>
+            <article class="ecosystem-card ecosystem-card-core">
+              <span class="card-index">02</span>
+              <h3>API central</h3>
+              <p>
+                A nova camada organiza regras de c&aacute;lculo, seguran&ccedil;a e respostas
+                leves para consumo em tempo real.
+              </p>
+            </article>
+            <article class="ecosystem-card">
+              <span class="card-index">03</span>
+              <h3>Site + apps</h3>
+              <p>
+                Site, Android e iOS passam a consultar a mesma intelig&ecirc;ncia,
+                mantendo pre&ccedil;os alinhados em todos os canais.
+              </p>
+            </article>
+          </div>
+
+          <div class="commercial-advantage">
+            <strong>Vantagem comercial:</strong>
+            se o pre&ccedil;o de um insumo for alterado no painel administrativo amanh&atilde;,
+            o valor ser&aacute; atualizado no mesmo segundo no site e nos aplicativos Android
+            e iOS. Sem redigita&ccedil;&atilde;o, sem diverg&ecirc;ncia de valores.
+          </div>
+        </div>
+      </section>
+
+      <section id="funcionalidades" class="section" tabindex="-1">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Escopo do app</p>
+            <h2>Funcionalidades do Aplicativo</h2>
+            <p class="section-sub">
+              Experi&ecirc;ncia mobile pensada para simular or&ccedil;amentos de constru&ccedil;&atilde;o
+              com fluidez, clareza e dados sempre atualizados.
+            </p>
+          </div>
+
+          <div class="feature-grid">
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <rect x="7" y="2.5" width="10" height="19" rx="2" />
+                  <path d="M10 18.5h4" />
+                </svg>
+              </div>
+              <h3>Multiplataforma Nativo</h3>
+              <p>
+                Desenvolvimento em tecnologia h&iacute;brida de ponta (Flutter ou React
+                Native), gerando apps fluidos para Android e iOS a partir de um
+                &uacute;nico c&oacute;digo.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M4 5h16" />
+                  <path d="M4 12h10" />
+                  <path d="M4 19h7" />
+                  <path d="M17 15l3 3-3 3" />
+                </svg>
+              </div>
+              <h3>Interface Sob Medida</h3>
+              <p>
+                Telas limpas e adaptadas para preenchimento de dados de obra pelo
+                celular, com jornadas intuitivas e organizadas em etapas.
+              </p>
+            </article>
+
+            <article class="feature-card">
+              <div class="feature-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d="M4 7c0-2 4-3 8-3s8 1 8 3-4 3-8 3-8-1-8-3Z" />
+                  <path d="M4 7v5c0 2 4 3 8 3s8-1 8-3V7" />
+                  <path d="M4 12v5c0 2 4 3 8 3s8-1 8-3v-5" />
+                </svg>
+              </div>
+              <h3>Consumo Inteligente de Dados</h3>
+              <p>
+                API refatorada para respostas leves em JSON enxuto, garantindo uso
+                est&aacute;vel mesmo em redes 3G/4G na rua ou no canteiro de obras.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="cronograma" class="section section-alt" tabindex="-1">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Milestones</p>
+            <h2>Linha do Tempo do Projeto</h2>
+            <p class="section-sub">
+              Entrega estimada em 50 dias, do desmembramento da API at&eacute; a publica&ccedil;&atilde;o
+              guiada nas lojas.
+            </p>
+          </div>
+
+          <ol class="timeline" aria-label="Etapas do projeto">
+            <li class="timeline-item">
+              <span class="timeline-step">Etapa 1</span>
+              <span class="timeline-days">Dias 1 a 15</span>
+              <h3>Arquitetura &amp; Infraestrutura</h3>
+              <p>
+                Desmembramento e otimiza&ccedil;&atilde;o da API de c&aacute;lculo existente.
+                Padroniza&ccedil;&atilde;o e seguran&ccedil;a dos endpoints m&oacute;veis.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <span class="timeline-step">Etapa 2</span>
+              <span class="timeline-days">Dias 16 a 40</span>
+              <h3>Engenharia Mobile &amp; Integra&ccedil;&atilde;o</h3>
+              <p>
+                Desenvolvimento da interface visual do app e conex&atilde;o em tempo real
+                com a nova API. Disponibiliza&ccedil;&atilde;o de vers&atilde;o beta para testes.
+              </p>
+            </li>
+            <li class="timeline-item">
+              <span class="timeline-step">Etapa 3</span>
+              <span class="timeline-days">Dias 41 a 50</span>
+              <h3>Homologa&ccedil;&atilde;o e Lan&ccedil;amento</h3>
+              <p>
+                Ajustes finos baseados nos testes, gera&ccedil;&atilde;o dos pacotes de
+                produ&ccedil;&atilde;o e publica&ccedil;&atilde;o oficial na Google Play Store e Apple App Store.
+              </p>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="investimento" class="section investment-section" tabindex="-1">
+        <div class="container">
+          <div class="investment-card">
+            <div class="investment-copy">
+              <p class="eyebrow">Investimento fixo</p>
+              <h2>Investimento Total do Projeto</h2>
+              <p>
+                Inclui o desmembramento completo da API, desenvolvimento das duas
+                vers&otilde;es m&oacute;veis e publica&ccedil;&atilde;o guiada nas lojas de aplicativos.
+              </p>
+            </div>
+            <div class="investment-price">
+              <span>Valor &uacute;nico</span>
+              <strong>R$ 6.000,00</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="escopo" class="section section-alt" tabindex="-1">
+        <div class="container">
+          <div class="section-head">
+            <p class="eyebrow">Transpar&ecirc;ncia total</p>
+            <h2>Notas de Escopo</h2>
+            <p class="section-sub">
+              O investimento acima contempla a entrega mobile integrada. Custos de
+              terceiros e funcionalidades futuras ficam separados para manter clareza.
+            </p>
+          </div>
+
+          <div class="scope-grid">
+            <article class="scope-card scope-card-included">
+              <h3>Incluso</h3>
+              <ul class="check-list">
+                <li>Ajuste da API de c&aacute;lculo.</li>
+                <li>Telas de simula&ccedil;&atilde;o de or&ccedil;amento mobile.</li>
+                <li>Testes de estresse integrados.</li>
+                <li>Assessoria t&eacute;cnica completa para publica&ccedil;&atilde;o.</li>
+              </ul>
+            </article>
+
+            <article class="scope-card scope-card-open">
+              <h3>N&atilde;o Incluso</h3>
+              <ul class="check-list check-list-muted">
+                <li>Taxa Google Play: US$ 25, pagamento &uacute;nico.</li>
+                <li>Taxa Apple Developer: US$ 99 anuais.</li>
+                <li>Chats em tempo real com suporte.</li>
+                <li>Gateway de pagamento por cart&atilde;o ou Pix dentro do app.</li>
+                <li>Modo offline complexo.</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section final-cta" aria-labelledby="final-cta-title">
+        <div class="container final-cta-inner">
+          <div>
+            <p class="eyebrow">Pr&oacute;ximo passo</p>
+            <h2 id="final-cta-title">Mostrar a experi&ecirc;ncia antes de desenvolver.</h2>
+            <p>
+              O mock naveg&aacute;vel ajuda o cliente a visualizar o fluxo do app antes
+              da etapa de layout final e desenvolvimento.
+            </p>
+          </div>
+          <a class="btn btn-primary" href="#mock-app">Abrir mock naveg&aacute;vel</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <img
+            class="footer-diviformica"
+            src="/diviformica-azul.png"
+            width="220"
+            height="90"
+            alt="Diviformica"
+          />
+          <p>
+            Proposta - Aplicativo Mobile Integrado
+            <span aria-hidden="true">|</span>
+            <span id="footer-year"></span>
+          </p>
+        </div>
+
+        <div class="footer-vektor">
+          <span>Elaborado por</span>
+          <a
+            href="https://vektorsol.com.br/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Vektor Solutions - abrir site"
+          >
+            <img
+              src="/vektor-solutions.png"
+              width="180"
+              height="44"
+              alt="Vektor Solutions"
+            />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/5563992265605?text=Ol%C3%A1%21%20Gostaria%20de%20falar%20sobre%20a%20proposta%20Diviformica."
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Conversar no WhatsApp com a Vektor Solutions"
+    >
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <path
+          fill="currentColor"
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.435 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"
+        />
+      </svg>
+    </a>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
